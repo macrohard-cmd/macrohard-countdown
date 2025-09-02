@@ -1,0 +1,49 @@
+/* Reset default */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Countdown */
+#countdown {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+/* Button */
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #06f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+a:hover {
+  background: #0051cc;
+}
