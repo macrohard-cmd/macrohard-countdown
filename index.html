@@ -43,7 +43,7 @@
       animation: pulse 2s infinite;
     }
 
-    a.btn {
+    a {
       display: inline-block;
       padding: 12px 24px;
       background: #06f;
@@ -54,10 +54,9 @@
       transition: 0.3s;
       box-shadow: 0 4px 15px rgba(0,0,0,0.4);
       animation: fadeIn 3s ease-in-out;
-      margin: 8px;
     }
 
-    a.btn:hover {
+    a:hover {
       background: #0051cc;
       transform: scale(1.05);
     }
@@ -89,27 +88,18 @@
 </head>
 <body>
   <img src="https://cryptologos.cc/logos/stellar-xlm-logo.png" alt="Macrohard Logo" width="120">
-  <h1>🚀 Macrohard second round of presale Live 🚀</h1>
+  <h1>🚀 Macrohard Presale Live 🚀</h1>
   <p>The future of finance on Stellar Network</p>
   
   <div id="countdown"></div>
 
-  <!-- 🔹 Buy on Lobstr -->
-  <a class="btn" href="https://lobstr.co/swap/native/Macrohard:GD73SAHCYBQ3CWD76UMJHDPLUUKIXELXWPLZVNLMW2DQZJQLYOWP45TO" target="_blank">
+  <a href="https://lobstr.co/swap/native/Macrohard:GD73SAHCYBQ3CWD76UMJHDPLUUKIXELXWPLZVNLMW2DQZJQLYOWP45TO" target="_blank">
     🚀 Buy on Lobstr
   </a>
 
-  <!-- 🔹 Whitepaper Buttons -->
-  <a class="btn" href="Macrohard_Whitepaper.pdf" target="_blank">
-    📄 View Whitepaper
-  </a>
-  <a class="btn" href="Macrohard_Whitepaper.pdf" download>
-    📥 Download Whitepaper
-  </a>
-
   <script>
-    // Set launch date (contoh: 8 September 2025)
-    var launchDate = new Date("Sep 8, 2025 12:00:00").getTime();
+    // Set launch date (contoh: 5 September 2025)
+    var launchDate = new Date("Sep 4, 2025 12:00:00").getTime();
 
     var timer = setInterval(function() {
       var now = new Date().getTime();
